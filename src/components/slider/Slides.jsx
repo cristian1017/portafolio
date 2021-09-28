@@ -1,7 +1,9 @@
 import React from 'react';
 import './Slider.css';
 import pos from '../../img/portada.png';
-import home from '../../img/homeCalendar.png'
+import home from '../../img/homeCalendar.png';
+import heroes from '../../img/heroesApp.png'
+
 
 
 const slideInfo = [
@@ -16,6 +18,13 @@ const slideInfo = [
         alt: "Proyecto 2",
         desc: "Calendario App",
         git: "MERN-Calendar-Front"
+    },
+    {
+        src: heroes,
+        alt: "Proyecto 3",
+        desc: "Heroes App",
+        git: "Heroes-App",
+        deploy: "https://cristian1017.github.io/Heroes-App/"
     },
    
 ]
